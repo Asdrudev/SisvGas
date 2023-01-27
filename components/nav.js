@@ -208,7 +208,7 @@ const A = () => {
 
     <!-- Desktop layout -->
     <div class=" hidden md:flex gap-4 p-4">
-        <a href="/home/" class="hover:bg-gray-500 hover:dark:bg-red-700 rounded-lg p-2 font-semibold dark:text-white text-white easy-in duration-300">SOLICITUDES</a>
+        <a href="/cdt/" class="hover:bg-gray-500 hover:dark:bg-red-700 rounded-lg p-2 font-semibold dark:text-white text-white easy-in duration-300">SOLICITUDES</a>
         <a href="/exit/" class="hover:bg-gray-500 hover:dark:bg-red-700 rounded-lg p-2 font-semibold dark:text-white text-white easy-in duration-300">SALIR</a>
     </div>
 
@@ -221,7 +221,7 @@ const A = () => {
       <!-- Sidebar mobile (barra lateral) -->
       <div id="nav-sidebar" class="md:hidden fixed top-20 w-[0%] -right-8 bottom-0 bg-zinc-300/70 dark:bg-slate-900/60 backdrop-blur-sm easy-in duration-500">
         <div class="absolute bg-zinc-100 w-[60%] right-0 dark:bg-slate-700 top-0 bottom-0 flex flex-col gap-4 p-4">
-            <a href="/home/" class="hover:bg-gray-300 hover:dark:bg-slate-600 rounded-lg p-2 font-semibold dark:text-white text-zinc-700 easy-in duration-300">SOLICITUDES</a>
+            <a href="/cdt/" class="hover:bg-gray-300 hover:dark:bg-slate-600 rounded-lg p-2 font-semibold dark:text-white text-zinc-700 easy-in duration-300">SOLICITUDES</a>
             <a href="/exit/" class="hover:bg-gray-300 hover:dark:bg-slate-600 rounded-lg p-2 font-semibold dark:text-white text-zinc-700 easy-in duration-300">SALIR</a>
         </div>
       </div>
@@ -257,7 +257,7 @@ const createNavVocero = () => {
 
     <!-- Desktop layout -->
     <div class=" hidden md:flex gap-4 p-4">
-        <a href="/home/" class="hover:bg-gray-500 hover:dark:bg-red-700 rounded-lg p-2 font-semibold dark:text-white text-white easy-in duration-300">REALIZAR SOLICITUD</a>
+        <a href="/vocero/" class="hover:bg-gray-500 hover:dark:bg-red-700 rounded-lg p-2 font-semibold dark:text-white text-white easy-in duration-300">REALIZAR SOLICITUD</a>
         <a href="/exit/" class="hover:bg-gray-500 hover:dark:bg-red-700 rounded-lg p-2 font-semibold dark:text-white text-white easy-in duration-300">SALIR</a>
     </div>
 
@@ -270,7 +270,7 @@ const createNavVocero = () => {
       <!-- Sidebar mobile (barra lateral) -->
       <div id="nav-sidebar" class="md:hidden fixed top-20 w-[0%] -right-8 bottom-0 bg-zinc-300/70 dark:bg-slate-900/60 backdrop-blur-sm easy-in duration-500">
         <div class="absolute bg-zinc-100 w-[60%] right-0 dark:bg-slate-700 top-0 bottom-0 flex flex-col gap-4 p-4">
-            <a href="/home/" class="hover:bg-gray-300 hover:dark:bg-slate-600 rounded-lg p-2 font-semibold dark:text-white text-zinc-700 easy-in duration-300">REALIZAR SOLICITUD</a>
+            <a href="/vocero/" class="hover:bg-gray-300 hover:dark:bg-slate-600 rounded-lg p-2 font-semibold dark:text-white text-zinc-700 easy-in duration-300">REALIZAR SOLICITUD</a>
             <a href="/exit/" class="hover:bg-gray-300 hover:dark:bg-slate-600 rounded-lg p-2 font-semibold dark:text-white text-zinc-700 easy-in duration-300">SALIR</a>
         </div>
       </div>

@@ -15,33 +15,48 @@
 
                                             <!-- 1 -->
            <!-- C.I -->
-            <div class="flex flex-col gap-2 text-lg relative">
-                <label for="ci-input" class="dark:text-white text-zinc-800 font-semibold">Cédula de Identidad
-                    <span class="dark:text-red-400 text-red-500">*</span>
-                </label>
-                <!-- Div con svg -->
-                <div class="relative">
-                    <!-- Input -->
-                    <input type="text" id="ci-input" class="outline-none p-2 rounded-md border 
-                    dark:border-slate-500 bg-transparent focus:outline-0 focus:ring-2 focus:ring-blue-400
-                    easy-in duration-150 dark:text-white text-zinc-700 w-full">
-
-                    <div class="absolute right-1 bottom-1 top-1 px-2 flex justify-center items-center dark:bg-slate-600 bg-zinc-100">
-                    <!-- X icon -->
-                    <svg class="w-6 h-6 text-red-400 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
-                        </svg>
-
-                    <!-- Check icon -->
-                    <svg class="w-6 h-6 text-green-400 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>                      
-                    </div>
-                </div>
-               
-                <p class="dark:text-red-400 font-semibold text-red-500 text-sm
-                hidden">(Este campo es requerido. Ej: V-XXXXXXXX)</p>
+           <div class="flex flex-col gap-2 text-lg relative">
+            <label for="ci-input" class="dark:text-white text-zinc-800 font-semibold">Documento
+                <span class="dark:text-red-400 text-red-500">*</span>
+            </label>
+            
+         <div class="flex">
+            <button id="states-button" data-dropdown-toggle="dropdown-states" class="flex-shrink-0 items-center py-0 px-0 font-medium text-center text-gray-500 bg-gray-100 rounded-l-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600" type="button">
+            <select id="states" class="outline-none p-2 rounded-md border 
+            dark:border-slate-500 bg-transparent focus:outline-0 focus:ring-2 focus:ring-blue-400
+            easy-in duration-150 dark:text-white text-zinc-700">
+                <option value="V">V</option>
+                <option value="J">J</option>
+                <option value="G">G</option>
+            </select>
+            </button>
+            <div id="dropdown-states" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="states-button">
+                    
             </div>
+            <!-- Input -->
+            <input type="text" id="ci-input" class="outline-none p-2 rounded-md border 
+            dark:border-slate-500 bg-transparent focus:outline-0 focus:ring-2 focus:ring-blue-400
+            easy-in duration-150 dark:text-white text-zinc-700 w-full">
+        </div>
+        <!-- Div con svg -->
+        <div class="relative">
+            <div class="absolute right-1 bottom-1 top-1 px-2 flex justify-center items-center dark:bg-slate-600 bg-zinc-100">
+            <!-- X icon -->
+            <svg class="w-6 h-6 text-red-400 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+                </svg>
+        
+            <!-- Check icon -->
+            <svg class="w-6 h-6 text-green-400 hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>                      
+            </div>
+        </div>
+          
+        <p class="dark:text-red-400 font-semibold text-red-500 text-sm
+        hidden">(Este campo es requerido. Ej: V-XXXXXXXX)</p>
+        </div>
                                             <!-- 2 -->
 
             <!-- Input password -->
